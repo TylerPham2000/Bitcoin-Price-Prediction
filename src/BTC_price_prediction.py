@@ -34,10 +34,10 @@ from sklearn.model_selection import train_test_split
 plt.style.use('fivethirtyeight')
 
 # Twitter APi credentials
-consumerKey = "2pG34T9KBLGxPj9CT2qegFn40"
-consumerSecret = "RBB1BlS56Tl6USgPOMS44D07UxSegLmveOq7rmymUd8ULExJ5y"
-accessToken = "1475565493570478086-ibQpVGrj68Obj9OLt9j4xShlYUBUIk"
-accessTokenSecret = "oRI1k0uwfq7bD5WyISYCQr8EM7AqxekVI5JybRCCiSnAR"
+consumerKey = ""
+consumerSecret = ""
+accessToken = ""
+accessTokenSecret = ""
 
 # Create authentication object
 authenticate = tweepy.OAuthHandler(consumerKey, consumerSecret)
